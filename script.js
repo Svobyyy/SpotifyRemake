@@ -4,7 +4,7 @@ let menu = document.querySelector(`.menu`);
 let body = document.querySelector(`body`);
 
 burger.addEventListener(`click`, () => {
-    body.classList.add(`scrollStop`)
+    body.classList.toggle(`scrollStop`)
     for(let i = 0; i < cara.length; i++)
     {
         cara[i].classList.toggle(`animace`);
@@ -23,7 +23,6 @@ burger.addEventListener(`click`, () => {
             if(menu.classList.contains(`fadeOutMenu`))
             {
                 menu.classList.add(`hide`);
-                body.classList.remove(`scrollStop`)
             }
         })
     }
