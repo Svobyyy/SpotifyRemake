@@ -1,0 +1,26 @@
+$black: black;
+$white: white;
+$blue: #2941AB;
+$green: #1ED760;
+$grey: #222326;
+$big: 150px;
+$big2: 80px;
+$big3: 40px;
+$big4: 30px;
+$big5: 24px;
+
+* {
+    margin: 0;
+    padding: 0;
+    color: $white;
+    box-sizing: border-box;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+a {
+    text-decoration: none;
+    color: $white;
+}
+
+ul {
+list-style: none;
+}
